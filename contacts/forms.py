@@ -9,6 +9,7 @@ class ContactForm(forms.ModelForm):
             'name',
             'address_1',
             'address_2',
+            'birthday',
             'city',
             'state',
             'zip_code',

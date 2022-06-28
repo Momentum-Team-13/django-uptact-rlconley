@@ -12,6 +12,7 @@ django-debug-toolbar = "*"
 werkzeug = "*"
 django-environ = "*"
 django-localflavor = "*"
+requests = "*"
 
 [requires]
 python_version = "3.10"
