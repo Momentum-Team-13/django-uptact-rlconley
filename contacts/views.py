@@ -6,6 +6,7 @@ from .forms import ContactForm
 # Create your views here.
 def list_contacts(request):
     contacts = Contact.objects.all()
+    # Django ORM running SQL queries for us in the database and returning instances of the Contact model
     return render(request, "contacts/list_contacts.html",
                   {"contacts": contacts})
 
